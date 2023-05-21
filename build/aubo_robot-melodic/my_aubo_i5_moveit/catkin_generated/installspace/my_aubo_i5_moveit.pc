@@ -1,0 +1,8 @@
+prefix=/home/zhu/aubo_ws/install
+
+Name: my_aubo_i5_moveit
+Description: Description of my_aubo_i5_moveit
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/zhu/aubo_ws/install
+
+Name: aubo_i16_moveit_config
+Description: Description of aubo_i16_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

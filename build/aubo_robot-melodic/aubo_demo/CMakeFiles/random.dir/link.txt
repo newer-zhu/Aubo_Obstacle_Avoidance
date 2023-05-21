@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/random.dir/src/random.cpp.o  -o /home/zhu/aubo_ws/devel/lib/aubo_demo/random 

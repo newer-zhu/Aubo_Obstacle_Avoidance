@@ -1,0 +1,8 @@
+prefix=/home/zhu/aubo_ws/devel
+
+Name: aubo_gazebo
+Description: Description of aubo_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

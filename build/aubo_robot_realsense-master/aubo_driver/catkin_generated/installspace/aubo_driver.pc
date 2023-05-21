@@ -1,0 +1,8 @@
+prefix=/home/zhu/aubo_ws/install
+
+Name: aubo_driver
+Description: Description of aubo_driver
+Version: 1.3.3
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: sensor_msgs roscpp std_msgs aubo_msgs

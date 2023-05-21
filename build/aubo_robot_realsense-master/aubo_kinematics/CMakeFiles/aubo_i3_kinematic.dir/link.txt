@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libaubo_i3_kinematic.so -o /home/zhu/aubo_ws/devel/lib/libaubo_i3_kinematic.so CMakeFiles/aubo_i3_kinematic.dir/src/kinematics.cpp.o 

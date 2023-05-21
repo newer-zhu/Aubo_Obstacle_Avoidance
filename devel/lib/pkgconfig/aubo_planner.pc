@@ -1,0 +1,8 @@
+prefix=/home/zhu/aubo_ws/devel
+
+Name: aubo_planner
+Description: Description of aubo_planner
+Version: 1.3.3
+Cflags: 
+Libs: -L${prefix}/lib -laubo_planner_dummy
+Requires: roscpp std_msgs sensor_msgs control_msgs actionlib moveit_core moveit_ros_planning_interface interactive_markers trajectory_msgs industrial_msgs actionlib actionlib_msgs industrial_utils urdf

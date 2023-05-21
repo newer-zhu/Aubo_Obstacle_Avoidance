@@ -1,0 +1,8 @@
+prefix=/home/zhu/aubo_ws/install
+
+Name: aubo_controller
+Description: Description of aubo_controller
+Version: 1.3.3
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -laubo_controller_dummy
+Requires: roscpp std_msgs sensor_msgs control_msgs actionlib moveit_core moveit_ros_planning_interface interactive_markers trajectory_msgs industrial_msgs actionlib actionlib_msgs industrial_utils urdf

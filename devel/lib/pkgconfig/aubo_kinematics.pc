@@ -1,0 +1,8 @@
+prefix=/home/zhu/aubo_ws/devel
+
+Name: aubo_kinematics
+Description: Description of aubo_kinematics
+Version: 0.3.7
+Cflags: -I/home/zhu/aubo_ws/src/aubo_robot-melodic/aubo_kinematics/include
+Libs: -L${prefix}/lib -laubo_i3_kinematic -laubo_i5_kinematic -laubo_i10_kinematic -laubo_i3_moveit_kinematic_plugin -laubo_i5_moveit_kinematic_plugin -laubo_i10_moveit_kinematic_plugin
+Requires: roscpp geometry_msgs moveit_core moveit_ros_planning pluginlib tf_conversions

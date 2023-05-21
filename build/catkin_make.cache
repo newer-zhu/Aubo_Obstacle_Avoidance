@@ -1,0 +1,2 @@
+aubo_move:aubo_robot-melodic/aubo_controller:aubo_robot-melodic/aubo_demo:aubo_robot-melodic/aubo_description:aubo_robot-melodic/aubo_driver:aubo_robot-melodic/aubo_gazebo:aubo_robot-melodic/aubo_i10_moveit_config:aubo_robot-melodic/aubo_i5_moveit_config:aubo_robot-melodic/aubo_kinematics:aubo_robot-melodic/aubo_msgs:aubo_robot-melodic/aubo_planner:aubo_robot-melodic/aubo_robot:realsense_ros_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/zhu/aubo_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zhu/aubo_ws/install -G Unix Makefiles

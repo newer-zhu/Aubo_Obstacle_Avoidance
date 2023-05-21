@@ -1,0 +1,8 @@
+prefix=/home/zhu/aubo_ws/devel
+
+Name: aubo_msgs
+Description: Description of aubo_msgs
+Version: 1.3.3
+Cflags: -I/home/zhu/aubo_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs

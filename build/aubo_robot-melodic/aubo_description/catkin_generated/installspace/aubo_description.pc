@@ -1,0 +1,8 @@
+prefix=/home/zhu/aubo_ws/install
+
+Name: aubo_description
+Description: Description of aubo_description
+Version: 1.3.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
